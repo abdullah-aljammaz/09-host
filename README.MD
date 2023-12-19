@@ -1,5 +1,4 @@
-# `School Project With Express`
-
+<h1 style="text-align:center">School System Using Express And Prisma DB</h1>
 <hr>
 
 > [!IMPORTANT]  
