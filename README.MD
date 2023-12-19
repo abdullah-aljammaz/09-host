@@ -96,3 +96,4 @@ DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
 - [Prisma](https://www.prisma.io/)
 - [Azure Studio](https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?view=sql-server-ver16&tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall)
 - [Xampp](https://www.apachefriends.org/download.html)
+- [Postman](https://www.postman.com/downloads/)
