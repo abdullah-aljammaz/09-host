@@ -1,7 +1,27 @@
 # School Project With Express
 
+<hr>
 
+> [!IMPORTANT]  
+> Make .env File And Download Packages
+<h3>Download Packages</h3>
 
+```cmd
+$ npm i
+```
+
+<hr>
+
+<h3>Upload schema.prismma To Database</h3>
+
+```cmd
+$ npx prisma db push
+```
+
+.env File
+```env
+DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
+```
 <h2>Routs To Use All Functions</h2>
 
 <h3>Class</h3>
@@ -58,23 +78,7 @@
 }
 ```
 
-<hr>
 
-> [!IMPORTANT]  
-> Make .env File And Download Packages
-<h3>Download Packages</h3>
-
-```cmd
-$ npm i
-```
-
-<hr>
-
-<h3>Upload schema.prismma To Database</h3>
-
-```cmd
-$ npx prisma db push
-```
 
 <hr>
 
