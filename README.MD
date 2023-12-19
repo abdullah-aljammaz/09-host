@@ -4,6 +4,7 @@
 
 > [!IMPORTANT]  
 > Make .env File And Download Packages
+
 <h3>Download Packages</h3>
 
 ```cmd
@@ -12,7 +13,7 @@ $ npm i
 
 <hr>
 
-<h3>Upload schema.prismma To Database</h3>
+<h3>Upload schema.prisma To Database</h3>
 
 ```cmd
 $ npx prisma db push
@@ -21,6 +22,7 @@ $ npx prisma db push
 <hr>
 
 .env File
+
 ```env
 DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
 ```
@@ -49,17 +51,17 @@ DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
 
 <h3>Sudents</h3>
 
-| Path | Methods |
-| ---- | ------- |
-|`/student/get/all`| `GET`    |
-|`/student/add/new`| `POST`    |
+| Path               | Methods |
+| ------------------ | ------- |
+| `/student/get/all` | `GET`   |
+| `/student/add/new` | `POST`  |
 
 <h4>How Add New Student with json</h4>
 
 ```json
 {
-  "username":"STUDENT_NAME",
-  "classRoom_id":"CLASS_ID"
+  "username": "STUDENT_NAME",
+  "classRoom_id": "CLASS_ID"
 }
 ```
 
@@ -67,23 +69,21 @@ DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
 
 <h3>Teacher</h3>
 
-| Path | Methods |
-| ---- | ------- |
-|`/student/get/all`| `GET`    |
-|`/student/add/new`| `POST`    |
+| Path               | Methods |
+| ------------------ | ------- |
+| `/student/get/all` | `GET`   |
+| `/student/add/new` | `POST`  |
 
 <h4>How Add New Student with json</h4>
 
 ```json
 {
-  "username":"TEACHER_NAME",
+  "username": "TEACHER_NAME",
   "phone": "TEACHER_PHONE_NUMBER",
-  "Specialization": "TEACHER_SPECILICATION",  
-  "classRoom_id":"CLASS_ID"
+  "Specialization": "TEACHER_SPECILICATION",
+  "classRoom_id": "CLASS_ID"
 }
 ```
-
-
 
 <hr>
 
