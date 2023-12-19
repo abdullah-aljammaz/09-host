@@ -1,9 +1,9 @@
-# School Project With Express
+# `School Project With Express`
 
 <hr>
 
 > [!IMPORTANT]  
-> Make .env File And Download Packages
+> `Make .env File And Download Packages`
 
 <h3>Download Packages</h3>
 
@@ -88,7 +88,7 @@ DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
 <hr>
 
 > [!NOTE]  
-> You Need To Connect With Database And Push Prisma db
+> `You Need To Connect With Database And Push Prisma db`
 
 
 <hr>
