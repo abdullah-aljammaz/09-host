@@ -24,6 +24,9 @@ $ npx prisma db push
 ```env
 DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
 ```
+
+<hr>
+
 <h2>Routs To Use All Functions</h2>
 
 <h3>Class</h3>
