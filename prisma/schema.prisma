@@ -1,0 +1,36 @@
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Teacher {
+  id String @id @default(uuid())
+  username String
+  phone String
+  Specialization String
+  classRoom_id String
+  classRoom ClassRoom? @relation(fields: [classRoom_id],references: [id])
+
+  @@index([classRoom_id])
+}
+
+model Student{
+  id String @id @default(uuid())
+  username String
+  classRoom_id String
+  classRoom ClassRoom? @relation(fields: [classRoom_id],references: [id])
+
+  @@index([classRoom_id])
+}
+
+model ClassRoom{
+  id String @id @default(uuid())
+  name String
+  student Student[]
+  teacher Teacher[]
+}

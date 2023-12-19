@@ -1,0 +1,7 @@
+https://app.planetscale.com/
+
+DATABASE_URL='mysql://uzyod9oi9b0p8uo9ajnr:pscale_pw_Wlqjm4RVVUVAEZrtXFemQGLWTEHeDBJNQFjKRTOpuDK@aws.connect.psdb.cloud/test_api?sslaccept=strict'
+
+3 classes
+60 student
+5 Teacher - 2/2/1
