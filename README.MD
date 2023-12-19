@@ -87,6 +87,11 @@ DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
 
 <hr>
 
+> [!NOTE]  
+> You Need To Connect With Database And Push Prisma db
+
+
+<hr>
 # Documentation
 
 - [Node.Js](nodejs.org)
