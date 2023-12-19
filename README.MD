@@ -49,7 +49,7 @@ DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
 
 <hr>
 
-<h3>Sudents</h3>
+<h3>Student</h3>
 
 | Path               | Methods |
 | ------------------ | ------- |
