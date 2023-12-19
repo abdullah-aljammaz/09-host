@@ -18,6 +18,8 @@ $ npm i
 $ npx prisma db push
 ```
 
+<hr>
+
 .env File
 ```env
 DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
