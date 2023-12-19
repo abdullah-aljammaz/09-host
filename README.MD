@@ -56,7 +56,7 @@ DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
 | `/student/get/all` | `GET`   |
 | `/student/add/new` | `POST`  |
 
-<h4>How Add New Student with json</h4>
+<h3>How Add New Student with json</h3>
 
 ```json
 {
@@ -74,7 +74,7 @@ DATABASE_URL="mysql://USER_NAME:PASSWORD@IP:PORT/DATABASE_NAME"
 | `/student/get/all` | `GET`   |
 | `/student/add/new` | `POST`  |
 
-<h4>How Add New Student with json</h4>
+<h3>How Add New Teacher with json</h3>
 
 ```json
 {
